@@ -1,0 +1,45 @@
+
+body
+{
+
+animation-name: ex;
+animation-duration: 60s;
+}
+
+#header
+{
+margin-top:-8px;
+background-color:#A0522D;
+height:50px;
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+border-top-right-radius:15px;
+border-bottom-right-radius:15px;
+margin-top:-20px;
+}
+@keyframes ex
+{
+	from
+	{
+		background-image:url(first.png);
+	}
+	to
+	{
+		background-image:url(second.png);
+	}
+}
+#input
+{
+
+color:Blue;
+}
+#listform
+{
+	list-style-type:none;
+	color:yellow;
+	font-size:25px;
+}
+#deleteimg
+{
+margin-left:5%;
+}
